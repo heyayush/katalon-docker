@@ -22,7 +22,7 @@ RUN apt-get -y install wget
 RUN ./index.sh
 RUN $KATALON_CLEAN_UP_SCRIPT
 
-ENV PATH "$PATH:$KATALON_KATALON_ROOT_DIR/scripts"
+ENV PATH "$PATH:$KATALON_KATALON_ROOT_DIR/src/scripts"
 
 # install node
 USER root
