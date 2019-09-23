@@ -14,12 +14,6 @@ wget -O $package https://download.katalon.com/6.3.3/Katalon_Studio_Linux_64-6.3.
 
 ls
 tar -xvzf $package -C $KATALON_KATALON_INSTALL_DIR_PARENT
-# mkdir $KATALON_KATALON_INSTALL_DIR_PARENT/$unzipped_directory
-# mkdir $KATALON_KATALON_INSTALL_DIR_PARENT/$unzipped_directory/katalon
-# mkdir $KATALON_KATALON_INSTALL_DIR_PARENT/$unzipped_directory/configuration
-# mkdir $KATALON_KATALON_INSTALL_DIR_PARENT/$unzipped_directory/configuration/resources
-# mkdir $KATALON_KATALON_INSTALL_DIR_PARENT/$unzipped_directory/configuration/resources/drivers
-
 ls
 rm $package
 
