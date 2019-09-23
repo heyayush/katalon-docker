@@ -33,5 +33,3 @@ RUN apt-get -y install nodejs
 RUN npm install
 
 WORKDIR /
-
-CMD $KATALON_KATALON_ROOT_DIR/src/scripts/katalon-notify.sh
