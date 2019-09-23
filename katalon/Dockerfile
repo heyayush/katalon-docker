@@ -34,4 +34,4 @@ RUN npm install
 
 WORKDIR /
 
-CMD $KATALON_KATALON_ROOT_DIR/scripts/katalon-notify.sh
+CMD $KATALON_KATALON_ROOT_DIR/src/scripts/katalon-notify.sh
